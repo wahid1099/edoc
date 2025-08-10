@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>eDoc</title>
+    <style>
+      .container {
+        animation: transitionIn-Y-bottom 0.5s;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 30px;
+      }
+
+      .hero-section {
+        text-align: center;
+        padding: 80px 0;
+      }
+
+      .heading-text {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      .sub-text2 {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 40px;
+      }
+
+      .btn-primary {
+        padding: 15px 40px;
+        font-size: 18px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="full-height">
+      <div class="container">
+        <nav class="navbar">
+          <div class="edoc-logo">DocNow BD</div>
+          <div class="nav-links">
+            <a href="index.html" class="non-style-link">HOME</a>
+            <a href="about.html" class="non-style-link">ABOUT</a>
+            <a href="contact.html" class="non-style-link">CONTACT</a>
+            <a href="faq.html" class="non-style-link">FAQ</a>
+            <a href="terms.html" class="non-style-link">TERMS</a>
+            <a href="login.php" class="non-style-link">LOGIN</a>
+            <a href="signup.php" class="non-style-link">REGISTER</a>
+          </div>
+        </nav>
+
+        <div class="hero-section">
+          <h1 class="heading-text">Avoid Hassles & Delays.</h1>
+          <p class="sub-text2">
+            How is health today, Sounds like not good!<br />
+            Don't worry. Find your doctor online Book as you wish with eDoc.<br />
+            We offer you a free doctor channeling service, Make your appointment
+            now.
+          </p>
+          <a href="login.php">
+            <button class="btn-primary">Make Appointment</button>
+          </a>
+        </div>
+
+        <footer class="footer">
+          <p class="sub-text2 footer-hashen">A Web Solution by MD WAHID.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
